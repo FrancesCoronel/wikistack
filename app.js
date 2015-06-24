@@ -3,6 +3,8 @@ var express = require('express');
 // ---adding require statement for swig
 var swig = require('swig');
 
+// ---adding filters for swig
+
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
