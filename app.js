@@ -4,6 +4,8 @@ var express = require('express');
 var swig = require('swig');
 
 // ---adding filters for swig
+var filters = require('./filters')(swig);
+
 
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -15,7 +17,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 // added a route for add page
 var addRoutes = require('./routes/add');
-
+var wiki = require('./routes/wiki')
 var app = express();
 
 // view engine setup
@@ -39,6 +41,8 @@ app.use('/', routes);
 app.use('/users', users);
 // add page
 app.use('/add', addRoutes);
+// wiki
+app.use('/wiki', wiki)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

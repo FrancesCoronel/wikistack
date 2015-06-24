@@ -14,6 +14,14 @@ router.get('/addpage.html', function(req, res, next) {
   res.render('addpage', { title: 'WikistackAddPage' });
 });
 
+// router.get('/wiki', function(req, res, next){
+// 	var name = req.params.url_name;
+// 	console.log("name: ", name);
+// 	var url = Page.find( {url_name: url_name} );
+// 	console.log("url: ", url);
+// 	res.render('index', { url: url, title: 'Wikistack' });
+// })
+
 // router.post('/', function(req, res, next) {
 // });
 
