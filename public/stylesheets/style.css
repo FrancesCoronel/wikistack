@@ -44,3 +44,8 @@ a {
     display: block;
     text-align: center;
 }
+
+.btn-default {
+  background-color: #417FEF;
+  color: white;
+}
