@@ -1,10 +1,45 @@
+<!-- layout.html -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-  </head>
-  <body>
-    {% block content %}{% endblock %}
-  </body>
+<html lang="en">
+
+<head>
+    <title>{% block title %}WikiStack{% endblock %}</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-muted" href="#">WIKISTACK</a>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="index.html">ADD PAGE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<body>
+    <div class="container" id="wikistack">
+        <h1>BROWSE MY WIKISTACK</h1>
+        <hr>
+        <ul>
+            <li><a href="#">Fullstack Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Projects</a></li>
+            <li><a href="#">My City</a></li>
+            <li><a href="#">Code I've written</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">Wikistack, Fullstack Academy</p>
+        </div>
+    </div>
+    <!-- {% block content %}{% endblock %} -->
+</body>
+
 </html>

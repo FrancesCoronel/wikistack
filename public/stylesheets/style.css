@@ -1,8 +1,46 @@
+/*Layout
+=============================*/
+.container {
+    max-width: 940px;
+}
+
+/*Jumbotron
+=============================*/
+.jumbotron {
+    text-align: center;
+}
+
+.navbar-brand text-muted {
+  font-size: 20px;
+}
+
+/*.container h1 {
+  margin-top: 80px;
+}*/
+
 body {
-  padding: 50px;
+  padding: 70px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #41CBFF;
+}
+
+#wikistack {
+  margin-bottom: 40px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #999;
+}
+
+/*Text box
+=============================*/
+.input {
+    width: 215px;
+    /*height: 75px;*/
+    margin: 10px auto;
+    display: block;
+    text-align: center;
 }
