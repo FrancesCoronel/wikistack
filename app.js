@@ -16,7 +16,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 // added a route for add page
 var addRoutes = require('./routes/add');
-var wiki = require('./routes/wiki')
+var wiki = require('./routes/wiki');
 var app = express();
 
 // view engine setup
@@ -41,7 +41,7 @@ app.use('/users', users);
 // add page
 app.use('/add', addRoutes);
 // wiki
-app.use('/wiki', wiki)
+app.use('/wiki', wiki);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -75,6 +75,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;
