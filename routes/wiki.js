@@ -11,7 +11,6 @@ router.get('/:url_name', function(req, res, next){
 		res.render('index', { url: url, title: 'Wikistack' });
 	} );
 	console.log("url: ", url);
-	
-})
+});
 
 module.exports = router;

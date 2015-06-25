@@ -20,18 +20,32 @@
 
 body {
   padding: 70px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
 }
 
 a {
   color: #41CBFF;
+  /*font-family: 'Raleway', sans-serif;*/
 }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*body {
+
+}
+
+.label {
+  font-family: 'Raleway', sans-serif;
+}*/
 
 #wikistack {
   margin-bottom: 40px;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus {
   color: #999;
 }
 
@@ -47,5 +61,14 @@ a {
 
 .btn-default {
   background-color: #417FEF;
+  color: white;
+  border-color: #417FEF;
+}
+
+.fa fa-plus {
+  color: white;
+}
+
+.fa fa-book {
   color: white;
 }

@@ -4,12 +4,12 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   //res.send('respond with a resource');
-  res.render('addpage');
+  res.render('addpage', { title: 'Wikistack - Add Page' });
 });
 
 // add
 router.get('/add/', function(req, res, next){
-	res.render('addpage');
+	res.render('addpage', { title: 'Wikistack - Add Page' });
 });
 
 // submit

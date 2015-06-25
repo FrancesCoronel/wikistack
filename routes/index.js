@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 
 /* GET add page. */
 router.get('/addpage.html', function(req, res, next) {
-  res.render('addpage', { title: 'WikistackAddPage' });
+  res.render('addpage', { title: 'Wikistack - Add Page' });
 });
 
 // router.get('/wiki', function(req, res, next){
