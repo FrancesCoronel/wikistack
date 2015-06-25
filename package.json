@@ -15,5 +15,24 @@
     "morgan": "~1.5.3",
     "serve-favicon": "~2.2.1",
     "swig": "^1.4.2"
-  }
+  },
+  "description": "A Wiki clone built with Mongo &amp; Express, among other things.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://fvcproductions@github.com/fvcproductions/wikistack.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "FVCproductions, Jovia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fvcproductions/wikistack/issues"
+  },
+  "homepage": "https://github.com/fvcproductions/wikistack#readme"
 }
