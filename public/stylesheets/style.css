@@ -1,74 +1,71 @@
-/*Layout
-=============================*/
+/* Layout */
+
 .container {
     max-width: 940px;
 }
 
-/*Jumbotron
-=============================*/
+/*Jumbotron */
+
 .jumbotron {
     text-align: center;
 }
 
+/* Navbar */
+
 .navbar-brand text-muted {
-  font-size: 20px;
+    font-size: 20px;
 }
 
-/*.container h1 {
-  margin-top: 80px;
-}*/
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #999;
+    background-color: #222222;
+}
+
+/* Divs */
 
 body {
-  padding: 70px;
-  font-family: 'Raleway', sans-serif;
-  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+    padding: 70px;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
-  color: #41CBFF;
-  /*font-family: 'Raleway', sans-serif;*/
+    color: #41CBFF;
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-
-/*body {
-
-}
-
-.label {
-  font-family: 'Raleway', sans-serif;
-}*/
 
 #wikistack {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus {
-  color: #999;
-}
+/* Text Box */
 
-/*Text box
-=============================*/
 .input {
     width: 215px;
-    /*height: 75px;*/
     margin: 10px auto;
     display: block;
     text-align: center;
 }
 
+/* Button */
+
 .btn-default {
-  background-color: #417FEF;
-  color: white;
-  border-color: #417FEF;
+    background-color: #417FEF;
+    color: white;
+    border-color: #417FEF;
 }
 
-.fa fa-plus {
-  color: white;
+#blueButton:hover {
+    color: #417FEF;
+    background-color: white;
+    border-color: #417FEF;
 }
 
-.fa fa-book {
-  color: white;
+/* Icon Color */
+
+i {
+    color: white;
 }

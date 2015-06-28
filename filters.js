@@ -32,4 +32,3 @@ module.exports = function(swig) {
     // 'marked' is name of filter
     swig.setFilter('truncate_str', truncate_str);
 };
-
